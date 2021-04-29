@@ -25,6 +25,7 @@ export default function Image(props) {
 
       const Container = styled.div`
       width: 853px;
+      padding: 50px;
       display: flex;
       align-items: center;
       justify-content: center;

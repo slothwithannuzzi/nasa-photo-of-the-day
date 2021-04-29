@@ -19,7 +19,7 @@ export default function Details(props){
     text-align: justify;
     flex-direction: column;
     padding: 50px;
-    width: 900px;
+    width: 853px;
     `
    
     return(
