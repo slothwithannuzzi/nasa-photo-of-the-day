@@ -18,9 +18,9 @@ export default function Image(props) {
           title="Embedded youtube"
         />
       )
-      
+
       const imageContent = (
-        <img src = {img}/>
+          <img src = {img}/>
       )
 
       const Container = styled.div`

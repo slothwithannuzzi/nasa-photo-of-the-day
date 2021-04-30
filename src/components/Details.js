@@ -17,15 +17,23 @@ export default function Details(props){
     align-items: center;
     text-align: justify;
     flex-direction: column;
-    padding: 50px;
+    padding: 45px;
+    border: 5px solid navy;
+    border-top: 0px;
     width: 853px;
+    `
+    const Explanation = styled.span`
+    background-color: black;
+    border-radius: 15px;
+    padding: 40px;
+    opacity: 0.6;
     `
    
     return(
     <Container>
         <h1>{data.title}</h1>
         <h3>{data.date}</h3>
-        <span>{data.explanation}</span>
+        <Explanation>{data.explanation}</Explanation>
     </Container>
     );
 }
