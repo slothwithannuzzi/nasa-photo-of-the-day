@@ -25,11 +25,12 @@ export default function Image(props) {
 
       const Container = styled.div`
       width: 853px;
-      padding: 50px;
+      padding: 45px;
+      border: 5px solid navy;
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: navy;
+      background-color: black;
       `
 
       return (

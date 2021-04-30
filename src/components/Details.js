@@ -8,11 +8,10 @@ import styled from 'styled-components'
 export default function Details(props){
    
     const { data } = props;
-    const [details, setDetails] = useState(data);
     const Container = styled.div`
     display: flex;
-    background-color: navy;
-    color: yellow;
+    background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/m33.png');
+    color: gold;
     justify-content: center;
     align-content: center;
     align-items: center;
